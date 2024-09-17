@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site-card</title>
+  <link rel="stylesheet" href="./main.css">
+  <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
+  <script src="./app.js" defer></script>
+</head>
+
+<body class="indexbody">
+  <header class="header">
+    <div class="header__burger">
+      <button class="burger btn-reset" type="button" aria-label="Кнопка Меню">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+    </div>
+    <nav class="header__nav">
+      <div class="header__logo">
+        <img class="header__logo-img" src="../images/favicon.svg" alt="Логотип lansvetyk">
+      </div>
+      <ul class="header__list list list-reset">
+        <li class="list__item"><a href="#about" class="list__link">Обо мне</a></li>
+        <li class="list__item"><a href="#portfolio" class="list__link">Портфолио</a></li>
+        <li class="list__item"><a href="#contacts" class="list__link">Контакты</a></li>
+        <li class="list__item"><a href="#skillbase" class="list__link">База знаний</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main ">
+    <section class="hero section">
+      <div class="hero__container container">
+        <div class="hero__foto"></div>
+        <div class="hero__description">
+          <h1 class="hero__title title">Приветствую Вас на&nbsp;моем <nobr>сайте-портфолио</nobr>!</h1>
+          <p class="hero__desc">
+            Я&nbsp;начинающий&nbsp;html-верстальщик и&nbsp;junior&nbsp;-&nbsp;frontend&nbsp;разработчик.
+          </p>
+          <p class="hero__desc">
+            Меня зовут Светлана. Рада знакомству!</p>
+          <button class="hero__btn btn-reset btn" type="button" aria-label="Смотреть портфолио">Смотреть
+            портфолио</button>
+        </div>
+      </div>
+      <div class="hero__animation"></div>
+      <div class="curveWrap">
+        <svg width="100%" height="100%" viewBox="0 0 1200 100" xmlns="http://www.w3.org/2000/svg">
+          <g class="curve" fill="none">
+            <path d="M 0, 60 S 300, -60, 600, 60, 800, -120, 1200 60" />
+            <path d="M 0, 60 S 200, -60, 400, 60, 900, -120, 1200 60" />
+            <path d="M 0, 60 S 200, -70, 400, 70, 800, -120, 1200 60" />
+            <path d="M 0, 60 S 200, -60, 400, 80, 600, -120, 1200 60" />
+          </g>
+        </svg>
+      </div>
+    </section>
+    <section class="aboutme section" id="about">
+      <div class="aboutme__container container">
+        <div class="aboutme__description">
+          <div class="aboutme__img"></div>
+          <h2 class="aboutme__title title">Обо мне</h2>
+          <h3 class="about__subtitle subtitle">Увлечение и обучение веб-разработке</h3>
+          <p class="aboutme__desc">
+            С&nbsp;2020 года увлекаюсь <nobr>веб-разработкой</nobr>. Самостоятельно изучала ее&nbsp;в&nbsp;течение года
+            на&nbsp;различных ресурсах.<br />
+            Занималась на&nbsp;тренажерах <a href="#" class="about__desc--link">HTMLACADEMY.</a>
+            Проходила интенсивы с <a href="#" class="about__desc--link">GLOACADEMY.</a>
+          </p>
+          <p class="aboutme__desc">
+            Училась на&nbsp;курсе "Фронтенд-разработчик от нуля до мидл" от&nbsp; <a href="#"
+              class="about__desc--link">SKILLBOX.</a>
+            Закончила разделы по&nbsp;базовой и&nbsp;продвинутой верстке, и&nbsp;начальному JavaScript, а&nbsp;также
+            прошла
+            обучение на&nbsp;Vue 2.0. Ознакомилась с разделамми по продвинутому JavaScript. В&nbsp;портфолио можно
+            увидеть все мои работы выполненные в&nbsp;рамках обучения.
+            На&nbsp;данный момент опыта в&nbsp;коммерческой разработке не&nbsp;имею. </p>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio section" id="portfolio">
+      <div class="portfolio__wrapper container">
+        <h2 class="portfolio__title title">
+          Портфолио
+        </h2>
+        <div class="swiper-button-prev portfolio__btn portfolio__btn--left"></div>
+        <div class="swiper-button-next portfolio__btn portfolio__btn--right"></div>
+        <div class="swiper">
+          <div class="swiper-wrapper portfolio__items">
+            <div class="swiper-slide portfolio__item">
+              <a href="https://lansvetyk.github.io//Unit/#" target="_blank" class="portfolio__link"></a>
+            </div>
+            <div class="swiper-slide portfolio__item">
+              <a href="https://lansvetyk.github.io/Evklid/" target="_blank" class="portfolio__link"></a>
+            </div>
+            <div class="swiper-slide portfolio__item">
+              <a href="https://lansvetyk.github.io/Highpass/" target="_blank" class="portfolio__link"></a>
+            </div>
+            <div class="swiper-slide portfolio__item">
+              <a href="https://lansvetyk.github.io/Leonic/" target="_blank" class="portfolio__link"></a>
+            </div>
+            <div class="swiper-slide portfolio__item">
+              <a href="https://lansvetyk.github.io/SitDownPls_prod/" target="_blank" class="portfolio__link"></a>
+            </div>
+            <div class="swiper-slide portfolio__item">
+              <a href="https://lansvetyk.github.io/vue-app/#/" target="_blank" class="portfolio__link"></a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination portfolio__pagintaion"></div>
+      </div>
+    </section>
+    <section class="contacts none section">
+      <div class="contacts__wrapper container">
+        <h2 class="contacts__title title" id="contacts">
+          Контакты
+        </h2>
+        <div class="contacts__description">
+          <p class="contacts__descr">
+            Моя почта: lansvetyk@gmail.com
+          </p>
+          <form class="contacts__form form">
+            <h3 class="form__title">
+              Буду рада Вашим вопросам и предложениям! Пишите ...
+            </h3>
+            <input class="form__input" type="text" placeholder="Ваше имя" required>
+            <input class="form__input" id="online_phone" name="phone" type="tel" maxlength="50" required="required"
+              pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"
+              placeholder="+7(___)___-__-__">
+            <input class="form__input" type="email" placeholder="Ваш e-mail" id="email" required>
+            <textarea class="form__text" placeholder="Ваши вопросы и предложения" id="text" cols="30" rows="10"
+              required></textarea>
+            <button class="form__btn btn" type="submit">Отправить</button>
+            <label class="form__check">
+              <input class="form__checkbox" type="checkbox" name="accept" required>
+              <span class="form__box"></span>Галочка для улыбочки ;&#41;
+            </label>
+
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="skillbase none section" id="skillbase">
+      <div class="skillbase__wrapper container">
+        <h2 class="skillbase__title title">
+          База знаний
+        </h2>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-skillbase__button-prev swiper-skillbase__btn swiper-skillbase__btn--left"></div>
+        <div class="swiper-skillbase__button-next swiper-skillbase__btn swiper-skillbase__btn--right"></div>
+
+        <div class="swiper swiper-skillbase">
+          <div class="swiper-wrapper swiper-skillbase__items">
+            <div class="swiper-slide swiper-skillbase__item">
+              <a href="https://doka.guide/html/" class="swiper-skillbase__link" target="_blank">
+                <h3 class="swiper-skillbase__title">HTML</h3>
+              </a>
+            </div>
+            <div class="swiper-slide swiper-skillbase__item">
+              <a href="https://doka.guide/css/" class="swiper-skillbase__link" target="_blank">
+                <h3 class="swiper-skillbase__title">CSS</h3>
+              </a>
+            </div>
+            <div class="swiper-slide swiper-skillbase__item">
+              <a href="https://doka.guide/js/" class="swiper-skillbase__link" target="_blank">
+                <h3 class="swiper-skillbase__title">JavaScript</h3>
+              </a>
+            </div>
+            <div class="swiper-slide swiper-skillbase__item">
+              <h3 class="swiper-skillbase__title">Библиотеки(libraries)</h3>
+            </div>
+            <div class="swiper-slide swiper-skillbase__item">
+              <h3 class="swiper-skillbase__title">Фреймворк Vue 2.0</h3>
+            </div>
+            <div class="swiper-slide swiper-skillbase__item">
+              <h3 class="swiper-skillbase__title">Анимация</h3>
+            </div>
+            <div class="swiper-slide swiper-skillbase__item">
+              <h3 class="swiper-skillbase__title">Сборщик GULP</h3>
+            </div>
+          </div>
+          <div class="swiper-skillbase__pagintaion"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer visually-hidden ">
+    <div class="container">
+      <h3 class="footer__title title">Ищу удаленную работу, стажировку, практику. Готова работать и учиться! Пишите...
+      </h3>
+      <p class="footer__descr">
+        <a href="#" class="footer__link">в Телеграмм</a>
+      </p>
+      <p class="footer__descr">
+        <a href="#" class="footer__link">в WhatsApp</a>
+      </p>
+      <p class="footer__descr">2023</p>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+
+</html>
