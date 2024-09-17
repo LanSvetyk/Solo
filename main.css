@@ -822,7 +822,7 @@ template {
   border: none;
   width: 55rem;
   height: 55rem;
-  background-image: url("../images/desktop/Mainfoto2.jpg");
+  background-image: url("./images/desktop/Mainfoto2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -831,7 +831,7 @@ template {
 }
 .hero__foto:hover {
   transform: rotate(360deg);
-  background-image: url("../images/desktop/Mainfoto.jpg");
+  background-image: url("./images/desktop/Mainfoto.jpg");
 }
 @media (max-width: 979px) {
   .hero__foto {
@@ -1137,7 +1137,7 @@ template {
   border: none;
   width: 55rem;
   height: 55rem;
-  background-image: url("../images/desktop/Notebook.jpg");
+  background-image: url("./images/desktop/Notebook.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1909,7 +1909,7 @@ button.swiper-pagination-bullet {
   top: 6.5rem;
   left: 28rem;
   transform: rotate(-180deg);
-  background-image: url("../images/sprite.svg#rightTr");
+  background-image: url("./images/sprite.svg#rightTr");
 }
 @media (max-width: 979px) {
   .portfolio__btn--left {
@@ -1936,7 +1936,7 @@ button.swiper-pagination-bullet {
   position: absolute;
   top: 6.5rem;
   right: 28rem;
-  background-image: url("../images/sprite.svg#rightTr");
+  background-image: url("./images/sprite.svg#rightTr");
   border-color: #ecb406;
 }
 @media (max-width: 979px) {
@@ -2126,7 +2126,7 @@ button.swiper-pagination-bullet {
   display: inline-block;
   width: 1rem;
   height: 1.5rem;
-  background-image: url("../images/sprite.svg#chekbox");
+  background-image: url("./images/sprite.svg#chekbox");
   background-size: contain;
   background-repeat: no-repeat;
   /* выравниваем по центру */
@@ -2214,7 +2214,7 @@ button.swiper-pagination-bullet {
   top: 0.5rem;
   left: 28rem;
   transform: rotate(-180deg);
-  background-image: url("../images/sprite.svg#rightTr");
+  background-image: url("./images/sprite.svg#rightTr");
   cursor: pointer;
   z-index: 1;
 }
@@ -2222,7 +2222,7 @@ button.swiper-pagination-bullet {
   position: absolute;
   top: 0.5rem;
   right: 28rem;
-  background-image: url("../images/sprite.svg#rightTr");
+  background-image: url("./images/sprite.svg#rightTr");
   cursor: pointer;
   z-index: 1;
 }
