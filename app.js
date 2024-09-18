@@ -4,7 +4,7 @@
   document.addEventListener("DOMContentLoaded", function () {
     var $btn = document.createElement("button");
     $btn.setAttribute("aria-label", "Вернуться к началу страницы");
-    $btn.classList.add("btn-up");
+    $btn.classList.add("btn-up", "btn-reset");
     document.body.append($btn);
     window.addEventListener("scroll", trackScroll);
     function trackScroll() {
