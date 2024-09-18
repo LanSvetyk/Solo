@@ -763,11 +763,13 @@ template {
 }
 
 .list-open {
+  position: relative;
+  left: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  max-width: 13rem;
+  max-width: 15rem;
   gap: 3rem;
   opacity: 1;
   transition: all 0.3s ease-in-out;
