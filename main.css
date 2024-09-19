@@ -586,8 +586,8 @@ template {
   position: fixed;
   bottom: 5%;
   right: 3%;
-  width: 60px;
-  height: 60px;
+  width: 6rem;
+  height: 6rem;
   border-radius: 100%;
   background-color: #ad8e6c;
   border: 2px solid #fff;
@@ -597,10 +597,17 @@ template {
   z-index: 999;
 }
 .btn-up::before {
-  content: "⬆";
-  color: #fff;
-  font-size: 40px;
-  line-height: 1;
+    content: "";
+    width: 2rem;
+    height: 3rem;
+    position: absolute;
+    top: 13%;
+    left: 29%;
+    transform: rotate(-90deg);
+    background-image: url("../images/sprite.svg#rightTr");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .btn-up:hover {
   transform: background-color, border-color;
