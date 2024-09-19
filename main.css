@@ -588,6 +588,9 @@ template {
   right: 3%;
   width: 6rem;
   height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 100%;
   background-color: #ad8e6c;
   border: 2px solid #fff;
@@ -600,11 +603,8 @@ template {
     content: "";
     width: 2rem;
     height: 3rem;
-    position: absolute;
-    top: 13%;
-    left: 29%;
     transform: rotate(-90deg);
-    background-image: url("../images/sprite.svg#rightTr");
+    background-image: url("./images/sprite.svg#rightTr");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
